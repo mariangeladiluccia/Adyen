@@ -1,0 +1,11 @@
+
+{
+  "/posts": {
+    "target": "http://localhost:3000/api",
+    "secure": true,
+    "pathRewrite": {
+      "^/api": ""
+  },
+    "changeOrigin": true
+  }
+}
